@@ -8,10 +8,6 @@ The research paper associated with this implementation can be found in the proce
 
 In recent years, much attention has been given to various eXplainable Artificial Intelligence (XAI) and interpretability methods. Their extension to dense prediction tasks, however, has been underexplored. Gradient-based saliency maps, highlighting feature importance in terms of input pixels, have been frequently used as fast and simple visual explanation techniques. Nonetheless, they face several problems, and the exploration of different types of attribution methods is warranted. In this paper, we investigate gradient-free semantic segmentation explanations that are based on ablating activation maps. We explore their potential for industrial applications, specifically for fruit pitting machines. We also extend the application of Ablation-CAM, a gradient-free ablation-based interpretability technique, to semantic segmentation. Finally, we discuss the sensitivity of activation maps to partial occlusions of either the foreground or the background class regions.
 
-## Installation
-
-Check the environment.ylm file.
-
 ## Usage
 By running the code, it is possible to:
 
@@ -24,6 +20,10 @@ Additionally, by modifying the code, it is possible to access XAI for other laye
 ![image](https://github.com/MODAL-UNINA/Ablation-Studies-in-Activation-Maps-for-Explainable-Semantic-Segmentation-in-Industry-4.0/assets/152622661/e88f0f8e-dd09-43c4-9c50-6e7b05759917)
 
 Ablation-CAM for semantic segmentation. (a) and (b) show the original input image and its corresponding ground truth; (c) shows the U-Net’s predicted segmentation output; (d) shows the output of Ablation-CAM for semantic segmentation, when applied on the last encoder layer; (e) shows resized and smoothed Ablation-CAM output; (f) is the Ablation-CAM output (e) overlayed on the original input image (a).
+
+## Installation
+
+Check the environment.ylm file.
 
 ## Acknowledgment
 This work was supported by the following projects:
